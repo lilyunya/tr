@@ -1,0 +1,65 @@
+//
+//  main.cpp
+//  homestuck
+//
+//  Created by Liliya on 11/16/21.
+//
+
+#include <iostream>
+using namespace std;
+int main() {
+         
+  string sign;
+
+  cout << "Please enter your zodiac sign:\n";
+  cin >> sign;
+  
+    if (  sign == "Aquarius")
+    {
+        cout << "Eridan Ampora and Cronus Ampora";
+    }
+    if (  sign == "Sagittarius")
+    {
+        cout << "Equius Zahhak and Horuss Zahhak";
+    }
+    if ( sign == "Cancer")
+    {
+        cout << "Karkat Vantas and Kankri Vantas";
+    }
+    if ( sign == "Gemini")
+    {
+        cout << "Sollux Captor and Mituna Captor";
+    }
+    if ( sign == "Aries")
+    {
+        cout << "Aradia Megido and Damara Megido";
+    }
+    if ( sign == "Libra")
+    {
+        cout << "Terezi Pyrope and Latula Pyrope";
+    }
+    if ( sign == "Leo")
+    {
+        cout << "Nepeta Leijon and Meulin Leijon";
+    }
+    if ( sign == "Virgo")
+    {
+        cout << "Kanaya Maryam and Porrim Maryam";
+    }
+    if ( sign == "Taurus")
+    {
+        cout << "Tavros Nitram and Rufioh Nitram";
+    }
+    if ( sign == "Pisces")
+    {
+        cout << "Feferi Peixes and Meenah Peixes";
+    }
+    if ( sign == "Capricorn")
+    {
+        cout << "Gamzee Makara and Kurloz Makara";
+    }
+    if ( sign == "Scorpio")
+    {
+        cout << "Vriska Serket and Aranea Serket";
+    }
+}
